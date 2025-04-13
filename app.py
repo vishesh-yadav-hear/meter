@@ -10,10 +10,10 @@ app.permanent_session_lifetime = timedelta(minutes=30)
 
 # MySQL Database Connection
 db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="viggu3228",
-    database="meter_reading"
+    host="sql12.freesqldatabase.com",
+    user="sql12772847",
+    password="mr4xZhvxe5",
+    database="sql12772847"
 )
 cursor = db.cursor(dictionary=True)
 
