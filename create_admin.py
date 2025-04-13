@@ -3,10 +3,10 @@ from werkzeug.security import generate_password_hash
 
 # MySQL connection (update password if needed)
 db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="viggu3228",  # <-- use your actual MySQL password
-    database="meter_reading"
+    host="sql12.freesqldatabase.com",
+    user="sql12772847",
+    password="mr4xZhvxe5",
+    database="sql12772847"
 )
 
 cursor = db.cursor()
